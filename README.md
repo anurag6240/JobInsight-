@@ -42,7 +42,7 @@
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/jobinsight-plus.git
+git clone https://github.com/zeusgodyt/Insight-.git
 cd jobinsight-plus
 
 # Install dependencies
