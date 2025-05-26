@@ -1,6 +1,7 @@
 # 🚀 **JobInsight+** – *AI-Powered Career Intelligence Platform*
 
-![JobInsight+ Banner](https://via.placeholder.com/1200x400?text=JobInsight+)
+![JobInsight+ Banner](public/asset/banner.png)
+
 
 **JobInsight+** is an AI-driven career assistant platform that helps job seekers analyze their resumes against job descriptions, identify skill gaps, and receive personalized recommendations for continuous growth.
 
