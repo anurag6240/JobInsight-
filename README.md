@@ -1,6 +1,8 @@
 # 🚀 **JobInsight+** – *AI-Powered Career Intelligence Platform*
 
-<img src="public/assest/banner.png" alt="JobInsight+ Banner" width="70%" />
+<p align="center">
+  <img src="public/assest/banner.png" alt="JobInsight+ Banner" width="100%" />
+</p>
 
 
 
