@@ -59,12 +59,13 @@ export type ComprehensiveAnalysis = {
   matchScoreReasoning?: string;
 };
 
-// The Gemini API key should be kept in environment variables or fetched securely
+// The Gemini API key should be kept in environment variables
 const GEMINI_API_KEY = import.meta.env.VITE_GEMINI_API_KEY;
 const API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent";
 
 if (!GEMINI_API_KEY) {
-  console.error("Gemini API key is not set. Please set VITE_GEMINI_API_KEY in your .env file");
+  console.error("Gemini API key is not set. Please check your environment variables");
+  throw new Error("Gemini API key is not configured");
 }
 
 /**

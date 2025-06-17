@@ -11,7 +11,11 @@
     "preview": "vite preview",
     "start": "vite preview --host 0.0.0.0 --port 80",
     "lint": "eslint .",
-    "vercel-build": "vite build"
+    "vercel-build": "vite build",
+    "deploy": "vercel --prod"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.0",
